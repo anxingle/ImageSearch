@@ -4,6 +4,8 @@
 #include <opencv2/opencv.hpp>
 using namespace cv;
 
+typedef std::vector<bitset<8> >bitvec;
+
 void matProject(Mat& eigVec, Mat& mean, Mat& trainSet, int dimAfterPCA, Mat& featureAfterPCA);
 
 void vecProject(Mat& eigenVectors, Mat& meanValues, float* src, int srcSize, int dstSize, float* dst);

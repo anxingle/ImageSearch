@@ -56,7 +56,10 @@ int main(){
 	string featureBinFile = "F:\\Data\\featureAfterPCA.bin";
 	string imageNameFile = "F:\\Data\\imgName.txt";
 	string pcaMatrixFile = "F:\\Data\\pcaMatrix.bin";
-	test(labelFile, queryFile, centerFile, type, featureBinFile, imageNameFile, pcaMatrixFile);
-	system("pause");
+	unordered_map<string,vector<float*>>trainFeatureMap;
+
+	//test(labelFile, queryFile, centerFile, type, featureBinFile, imageNameFile, pcaMatrixFile);
+	//loadFeatureBin(featureBinFile,imageNameFile,);
+	system("pause");  
 	return 0;
 }

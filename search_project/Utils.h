@@ -6,17 +6,9 @@
 #include <bitset>
 #include <opencv2/opencv.hpp>
 #include "Configure.h"
+using namespace std;
+typedef std::vector<std::bitset<8> >bitvec;
 
-typedef struct{
-	std::pair<std::string,double> PathDis;
-	int IdxQuery;
-	int IdxDB;
-}QueryRe;
-
-typedef enum{
-	DENSESURF = 0,
-	DENSESURF_PRO_VLAD,
-}FEAFLAGS;
 
 
 typedef std::vector<std::bitset<8> > bitvec;
@@ -41,10 +33,10 @@ void loadFeatureBin(std::string trainFile,
 						   bool head);
 void loadVocabulary(std::string file, float** matrix, int row, int col);
 void loadPCAMatrix(std::string pcaFile, float** matrix, int row_, int col_);
-void loadRotationMatrix(string rotateMatrixFile, float** matrix, int row_, int col_);
+void loadRotationMatrix(std::string rotateMatrixFile, float** matrix, int row_, int col_);
 
-void loadTrainFeatures(string imageNameFile, string featureBinFile, vector<pair<float*, string> >& trainFeatures);
-void loadTrainBitFeatures(string imageNameFile, string featureBinFile, vector<pair<bitvec, string> > trainFeatures);
+void loadTrainFeatures(std::string imageNameFile,std::string featureBinFile, std::vector<std::pair<float*, std::string> >& trainFeatures);
+void loadTrainBitFeatures(std::string imageNameFile, std::string featureBinFile, std::vector<std::pair<bitvec, std::string> > trainFeatures);
 
 void feature2Bin(float* feature, int featureSize, FILE* fin);
 void mat2Bin(const char* filename, const cv::Mat& src, int row, int col);

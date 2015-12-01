@@ -8,6 +8,18 @@
 
 #define DEBUG 0
 
+
+typedef struct{
+	std::pair<std::string,double> PathDis;
+	int IdxQuery;
+	int IdxDB;
+}QueryRe;
+
+typedef enum{
+	DENSESURF = 0,
+	DENSESURF_PRO_VLAD,
+}FEAFLAGS;
+
 extern const std::string trainPath; // Õº∆¨ø‚µÿ÷∑
 extern const std::string testPath;
 
