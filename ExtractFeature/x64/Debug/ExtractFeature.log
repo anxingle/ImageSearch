@@ -1,0 +1,35 @@
+﻿生成启动时间为 2015/12/2 5:22:22。
+     1>项目“H:\zq\Alibaba\ExtractFeature\ExtractFeature\ExtractFeature.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt Test.cpp main.cpp
+         main.cpp
+         Test.cpp
+     1>Test.cpp(26): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(233) : 参见“freopen”的声明
+     1>Test.cpp(89): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Test.cpp(106): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Test.cpp(139): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"H:\zq\Alibaba\ExtractFeature\x64\Debug\ExtractFeature.exe" /INCREMENTAL /NOLOGO opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_ml248d.lib opencv_nonfree248d.lib opencv_objdetect248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_videostab248d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\zq\Alibaba\ExtractFeature\x64\Debug\ExtractFeature.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\zq\Alibaba\ExtractFeature\x64\Debug\ExtractFeature.lib" /MACHINE:X64 x64\Debug\API_Interface.obj
+         x64\Debug\Configure.obj
+         x64\Debug\ImgConAna.obj
+         x64\Debug\ImgFeature.obj
+         x64\Debug\Learn.obj
+         x64\Debug\LoadFile.obj
+         x64\Debug\main.obj
+         x64\Debug\NearestNeighbors.obj
+         x64\Debug\ostuRemoveBorder.obj
+         x64\Debug\PCAUtils.obj
+         x64\Debug\Search.obj
+         x64\Debug\SurfFeature.obj
+         x64\Debug\Test.obj
+         x64\Debug\Train.obj
+         x64\Debug\Utils.obj
+         x64\Debug\VLADFeature.obj
+         ExtractFeature.vcxproj -> H:\zq\Alibaba\ExtractFeature\x64\Debug\ExtractFeature.exe
+     1>已完成生成项目“H:\zq\Alibaba\ExtractFeature\ExtractFeature\ExtractFeature.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.34
