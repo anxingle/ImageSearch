@@ -73,14 +73,7 @@ int main(){
 	string imageNameFile = "F:\\Data\\imgName.txt";
 	string pcaMatrixFile = "F:\\Data\\pcaMatrix.bin";
 	string rotateMatrixFile = "F:\\Data\\rotateMatrix.bin";
-	FILE *fid;
-	fid = fopen(featureBinFile.c_str(), "rb");
-	//int imageNum;
-	int row, col;
-	fread(&row, sizeof(int), 1, fid);
-	fread(&col, sizeof(int), 1, fid);
-	cout<<"row is : "<<row<<"col is :   "<<col<<endl;
-	//test(labelFile, queryFile, centerFile, type, featureBinFile, imageNameFile, pcaMatrixFile);
+	test(labelFile, queryFile, centerFile, type, featureBinFile, imageNameFile, pcaMatrixFile);
 	//test(labelFile, queryFile, centerFile, type, featureBinFile, imageNameFile, pcaMatrixFile, rotateMatrixFile);
 	system("pause");
 	return 0;
