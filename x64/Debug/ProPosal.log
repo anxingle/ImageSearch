@@ -1,0 +1,88 @@
+﻿生成启动时间为 2015/12/14 14:36:41。
+     1>项目“K:\anxingle\ImageSearch\ProPosal.vcxproj”在节点 2 上(Build 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W1 /WX- /Od /D _MBCS /D _AFXDLL /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt API_Interface.cpp Configure.cpp CvvImage.cpp ImgConAna.cpp ImgFeature.cpp Learn.cpp LoadFile.cpp NearestNeighbors.cpp ostuRemoveBorder.cpp PCAUtils.cpp Preprocess.cpp ProPosal.cpp ProPosalDlg.cpp Search.cpp stdafx.cpp SurfFeature.cpp Test.cpp Train.cpp Utils.cpp VLADFeature.cpp WzdSplash.cpp
+     1>cl : 命令行 warning D9038: 此平台上不支持 /ZI；请启用 /Zi
+         API_Interface.cpp
+     1>k:\anxingle\imagesearch\Configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         Configure.cpp
+     1>k:\anxingle\imagesearch\Configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         CvvImage.cpp
+         ImgConAna.cpp
+         ImgFeature.cpp
+         Learn.cpp
+     1>k:\anxingle\imagesearch\Configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         LoadFile.cpp
+     1>k:\anxingle\imagesearch\Configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         NearestNeighbors.cpp
+     1>k:\anxingle\imagesearch\Configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         ostuRemoveBorder.cpp
+         PCAUtils.cpp
+     1>k:\anxingle\imagesearch\Configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         Preprocess.cpp
+         ProPosal.cpp
+     1>k:\anxingle\imagesearch\Configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         ProPosalDlg.cpp
+     1>k:\anxingle\imagesearch\Configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         Search.cpp
+     1>k:\anxingle\imagesearch\Configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         stdafx.cpp
+         SurfFeature.cpp
+         Test.cpp
+     1>k:\anxingle\imagesearch\Configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         Train.cpp
+     1>k:\anxingle\imagesearch\Configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         Utils.cpp
+     1>k:\anxingle\imagesearch\Configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         VLADFeature.cpp
+         正在生成代码...
+     1>k:\anxingle\imagesearch\imgconana.cpp(475): warning C4715: “combineRestRect”: 不是所有的控件路径都返回值
+         正在编译...
+         WzdSplash.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _AFXDLL /l"0x0409" /nologo /fo"x64\Debug\ProPosal.res" ProPosal.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"K:\anxingle\ImageSearch\x64\Debug\ProPosal.exe" /NOLOGO opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_ml248d.lib opencv_nonfree248d.lib opencv_objdetect248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_videostab248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"K:\anxingle\ImageSearch\x64\Debug\ProPosal.pdb" /TLBID:1 /ENTRY:"WinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\anxingle\ImageSearch\x64\Debug\ProPosal.lib" /MACHINE:X64 x64\Debug\ProPosal.res
+         x64\Debug\API_Interface.obj
+         x64\Debug\Configure.obj
+         x64\Debug\CvvImage.obj
+         x64\Debug\ImgConAna.obj
+         x64\Debug\ImgFeature.obj
+         x64\Debug\Learn.obj
+         x64\Debug\LoadFile.obj
+         x64\Debug\NearestNeighbors.obj
+         x64\Debug\ostuRemoveBorder.obj
+         x64\Debug\PCAUtils.obj
+         x64\Debug\Preprocess.obj
+         x64\Debug\ProPosal.obj
+         x64\Debug\ProPosalDlg.obj
+         x64\Debug\Search.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\SurfFeature.obj
+         x64\Debug\Test.obj
+         x64\Debug\Train.obj
+         x64\Debug\Utils.obj
+         x64\Debug\VLADFeature.obj
+         x64\Debug\WzdSplash.obj
+         LINK : 没有找到 K:\anxingle\ImageSearch\x64\Debug\ProPosal.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>mfcs110d.lib(appmodul.obj) : warning LNK4217: 本地定义的符号 _setmbcp 在函数 "int __cdecl AfxInitialize(int,unsigned long)" (?AfxInitialize@@YAHHK@Z) 中导入
+         ProPosal.vcxproj -> K:\anxingle\ImageSearch\x64\Debug\ProPosal.exe
+     1>已完成生成项目“K:\anxingle\ImageSearch\ProPosal.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:17.75
