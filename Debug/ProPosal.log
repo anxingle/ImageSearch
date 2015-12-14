@@ -1,0 +1,113 @@
+﻿生成启动时间为 2015/12/14 14:34:26。
+     1>项目“K:\anxingle\ImageSearch\ProPosal.vcxproj”在节点 2 上(Build 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ProPosal.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ProPosal.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt API_Interface.cpp Configure.cpp CvvImage.cpp ImgConAna.cpp ImgFeature.cpp Learn.cpp LoadFile.cpp NearestNeighbors.cpp ostuRemoveBorder.cpp PCAUtils.cpp Preprocess.cpp ProPosal.cpp ProPosalDlg.cpp Search.cpp SurfFeature.cpp Test.cpp Train.cpp Utils.cpp VLADFeature.cpp WzdSplash.cpp
+         WzdSplash.cpp
+         VLADFeature.cpp
+         Utils.cpp
+     1>k:\anxingle\imagesearch\configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+     1>k:\anxingle\imagesearch\utils.cpp(112): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\utils.cpp(228): warning C4018: “<”: 有符号/无符号不匹配
+         Train.cpp
+     1>k:\anxingle\imagesearch\configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         Test.cpp
+     1>k:\anxingle\imagesearch\configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         SurfFeature.cpp
+     1>k:\anxingle\imagesearch\surffeature.cpp(84): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+     1>k:\anxingle\imagesearch\surffeature.cpp(84): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>k:\anxingle\imagesearch\surffeature.cpp(115): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+     1>k:\anxingle\imagesearch\surffeature.cpp(115): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+         Search.cpp
+     1>k:\anxingle\imagesearch\configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         ProPosalDlg.cpp
+     1>k:\anxingle\imagesearch\configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+     1>k:\anxingle\imagesearch\proposaldlg.cpp(310): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+         ProPosal.cpp
+     1>k:\anxingle\imagesearch\configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         Preprocess.cpp
+         PCAUtils.cpp
+     1>k:\anxingle\imagesearch\configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         ostuRemoveBorder.cpp
+         NearestNeighbors.cpp
+     1>k:\anxingle\imagesearch\configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+     1>k:\anxingle\imagesearch\nearestneighbors.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\nearestneighbors.cpp(31): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\nearestneighbors.cpp(86): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\nearestneighbors.cpp(136): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\nearestneighbors.cpp(160): warning C4018: “<”: 有符号/无符号不匹配
+         LoadFile.cpp
+     1>k:\anxingle\imagesearch\configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         Learn.cpp
+     1>k:\anxingle\imagesearch\configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         ImgFeature.cpp
+         ImgConAna.cpp
+     1>k:\anxingle\imagesearch\imgconana.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\imgconana.cpp(72): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\imgconana.cpp(89): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\imgconana.cpp(228): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\imgconana.cpp(260): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\imgconana.cpp(261): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\imgconana.cpp(272): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\imgconana.cpp(403): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\imgconana.cpp(422): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\imgconana.cpp(429): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\imgconana.cpp(472): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\imgconana.cpp(484): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\imgconana.cpp(487): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\imgconana.cpp(493): warning C4018: “<”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\imgconana.cpp(508): warning C4018: “<”: 有符号/无符号不匹配
+         CvvImage.cpp
+         Configure.cpp
+     1>k:\anxingle\imagesearch\configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+         API_Interface.cpp
+     1>k:\anxingle\imagesearch\configure.h(21): warning C4005: “DEBUG”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atldef.h(132) : 参见“DEBUG”的前一个定义
+     1>k:\anxingle\imagesearch\api_interface.cpp(63): warning C4018: “>”: 有符号/无符号不匹配
+     1>k:\anxingle\imagesearch\api_interface.cpp(79): warning C4018: “>”: 有符号/无符号不匹配
+         正在生成代码...
+     1>k:\anxingle\imagesearch\imgconana.cpp(475): warning C4715: “combineRestRect”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /l"0x0804" /IDebug\ /nologo /fo"Debug\ProPosal.res" ProPosal.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\anxingle\ImageSearch\Debug\ProPosal.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_ml248d.lib opencv_nonfree248d.lib opencv_objdetect248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_videostab248d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"K:\anxingle\ImageSearch\Debug\ProPosal.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\anxingle\ImageSearch\Debug\ProPosal.lib" /MACHINE:X86 Debug\ProPosal.res
+         Debug\API_Interface.obj
+         Debug\Configure.obj
+         Debug\CvvImage.obj
+         Debug\ImgConAna.obj
+         Debug\ImgFeature.obj
+         Debug\Learn.obj
+         Debug\LoadFile.obj
+         Debug\NearestNeighbors.obj
+         Debug\ostuRemoveBorder.obj
+         Debug\PCAUtils.obj
+         Debug\Preprocess.obj
+         Debug\ProPosal.obj
+         Debug\ProPosalDlg.obj
+         Debug\Search.obj
+         Debug\stdafx.obj
+         Debug\SurfFeature.obj
+         Debug\Test.obj
+         Debug\Train.obj
+         Debug\Utils.obj
+         Debug\VLADFeature.obj
+         Debug\WzdSplash.obj
+         ProPosal.vcxproj -> K:\anxingle\ImageSearch\Debug\ProPosal.exe
+     1>已完成生成项目“K:\anxingle\ImageSearch\ProPosal.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:41.67
